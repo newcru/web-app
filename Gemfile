@@ -6,8 +6,9 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # compile with: http://stackoverflow.com/questions/7139210/install-the-mysql2-gem-for-a-specific-mysql-client-version
-gem 'mysql2' # modern mysql driver.
-gem 'haml-rails'   # for view templates; also fix generators to make haml not erb
+gem 'mysql2'     # modern mysql driver.
+gem 'haml-rails' # for view templates; also fix generators to make haml not erb
+gem 'cane'       # discipline testing from square: https://github.com/square/cane
 
 # Gems used only for assets and not required
 # in production environments by default.
