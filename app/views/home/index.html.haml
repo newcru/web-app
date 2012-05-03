@@ -1,2 +1,62 @@
-%h1 Home#index
-%p Find me in app/views/home/index.haml
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    :javascript
+      var _sf_startpt=(new Date()).getTime()    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title NewCRU : a seed-stage wine startup
+    %meta{:content => "Next-generation wine recommendations on your mobile device.", :name => "description"}/
+    %meta{:content => "the cats at New Cru", :name => "author"}/
+    %meta{:content => "wine, UX, mobile, organic, iphone, napa, san francisco, california, the creative class", :name => "keywords"}/
+    %meta{:content => "gAORHxpMSfm4PKwrEawobAroGYTxj7KD92fbTMCDIDM=", :name => "verify-v1"}/
+    %link{:href => "/stylesheets/main.css", :rel => "stylesheet"}/
+  %body#home
+
+    %h1.strapline
+      NewCRU is prototyping wine experiences in the mobile space.
+      %q
+        If you knew the secret ingredients in some wines,
+        you'd know why they're secret.
+
+    %h2 Co-founded by Barry Seifer and John Manoogian III (jm3)
+    .body
+
+      %script{:src => "http://platform.twitter.com/widgets.js", :type => "text/javascript"}
+
+      %div
+        %a.twitter-share-button{"data-related" => "newcru jm3", "data-text" => "New Cru is a mobile wine-recommendation app. Join the beta program: ", "data-url" => "http://thenewcru.com", "data-via" => "newcru", :href => "http://twitter.com/share"}
+          Tweet this
+      %p
+        New Cru spans the gap between fans of natural, sustainably-grown
+        products and the world's artisan wine growers & producers.
+
+      %p
+        Find what you like, wherever you are. Free, using your
+        smartphone. Personal, intuitive, fast, informative, and
+        geographically relevant.
+
+      %p
+        New Cru intends to change
+        %strong what
+        the wine conversation is about,
+        %strong who
+        controls the conversation, and
+        %strong where
+        the conversations happens, adding a new voice:
+        = succeed "." do
+          %strong Yours
+
+      %h2.footer
+        Forget the hype.
+        Enjoy the journey.
+        Drink what you like.
+
+      %iframe{:frameborder => "0", :height => "300", :marginheight => "0", :marginwidth => "0", :src => "https://spreadsheets.google.com/embeddedform?formkey=dGhmcjFfQ0xneEVoOXpxMUtCY2I3UVE6MQ", :width => "500"} Loading...
+
+    :javascript
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      :javascript
+      try {
+        var pageTracker = _gat._getTracker("UA-9062542-1");
+        pageTracker._trackPageview();
+        } catch(err) {}
