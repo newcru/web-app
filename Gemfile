@@ -10,6 +10,10 @@ gem 'mysql2'     # modern mysql driver.
 gem 'haml-rails' # for view templates; also fix generators to make haml not erb
 gem 'cane'       # discipline testing from square: https://github.com/square/cane
 
+group :test, :development do
+  gem 'minitest-rails'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
