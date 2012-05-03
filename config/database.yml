@@ -1,3 +1,4 @@
+# GRANT CREATE ON *.* TO 'newcru_rw'@'localhost';
 development:
   adapter: mysql2
   encoding: utf8
@@ -7,6 +8,8 @@ development:
   password: hoqzfyY.vQcAxeDTNEv?6wY
   socket: /tmp/mysql.sock
 
+# GRANT INDEX,SELECT,UPDATE,INSERT,DELETE,CREATE,DROP ON newcru_test.* TO 'newcru_rw'@'localhost';
+# FLUSH PRIVILEGES;
 test:
   adapter: mysql2
   encoding: utf8
