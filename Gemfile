@@ -5,7 +5,9 @@ gem 'rails', '3.2.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+# compile with: http://stackoverflow.com/questions/7139210/install-the-mysql2-gem-for-a-specific-mysql-client-version
+gem 'mysql2' # modern mysql driver.
+gem 'haml-rails'   # for view templates; also fix generators to make haml not erb
 
 # Gems used only for assets and not required
 # in production environments by default.
